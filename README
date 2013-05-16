@@ -1,0 +1,42 @@
+
+smpte~ (0.1)
+======================================
+Pure Data/Max (flext) external for generating or decoding ltc audio timecode
+
+Allows to sync to a DAW or sync two Pd instances via audio connection - and therefore having the same latency as your audio stream.
+
+
+using libltc library by Robin Gareus.
+based on Max object by Mattijs Kneppers
+
+
+www.matthiaskronlachner.com
+
+(C) 2013 by Matthias Kronlachner
+__________________________________________________________
+
+::INSTALL::
+
+see the flext install instructions if you want to build the external by yourself
+http://puredata.info/Members/thomas/flext
+
+
+OSX: use included binary (smpte~.pd_darwin)
+
+_______________
+:::CHANGELOG:::
+
+0.1	
+* first release
+
+ ________________
+:::KNOWN BUGS:::
+
+
+
+ ________________
+:::THINGS TO DO:::
+
+
+questions: m.kronlachner@gmail.com
+

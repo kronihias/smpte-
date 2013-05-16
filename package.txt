@@ -1,0 +1,5 @@
+NAME=smpte~
+SRCS=decoder.c encoder.c ltc.c timecode.c smpte~.cpp
+
+BUILDMODE=release
+
