@@ -12,10 +12,12 @@
 #include "decoder.h"
 #include "encoder.h"
 #include <math.h>
-
+// #include <stddef.h>
+#include <stdlib.h>
+// #include <stdio.h>
 #define FLEXT_ATTRIBUTES 1
 
-#include <flext.h>
+#include "flext.h"
 
 #if !defined(FLEXT_VERSION) || (FLEXT_VERSION < 401)
 #error You need at least flext version 0.4.1
